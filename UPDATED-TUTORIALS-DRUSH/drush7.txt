@@ -30,8 +30,23 @@ drush7 comands updated by SUBH-AJ-PAYEL
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 3.AJ:
 ----------------------
 	1. composer global require drush/drush:7.*
 	2. drush dl drupal-7 --select
 	3. drush si standard --db-url=mysql://root:@localhost/drupal7_drush --db-su=admin  --db-su-pw=admin --site-name="drupal7_drush"
+
+
