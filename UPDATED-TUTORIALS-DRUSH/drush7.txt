@@ -14,7 +14,7 @@ drush7 comands updated by SUBH-AJ-PAYEL
 
 2.Payel:
 ---------------------
-To change password of admin, drush command: drush upwd --password="admin" admin
+To change password of admin, drush command: drush upwd --password="admin" admin (work for only drush> drush8)
 
 
 
