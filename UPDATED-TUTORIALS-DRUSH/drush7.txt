@@ -48,5 +48,10 @@ To change password of admin, drush command: drush upwd --password="admin" admin 
 	1. composer global require drush/drush:7.*
 	2. drush dl drupal-7 --select
 	3. drush si standard --db-url=mysql://root:@localhost/drupal7_drush --db-su=admin  --db-su-pw=admin --site-name="drupal7_drush"
+  
+  drupal7 install in postgres 9.3
+  -------------------------------------------
+  1. drush si standard --db-url=pgsql://postgres:postgres@localhost/drupal7_drush --db-su=admin  --db-su-pw=admin --site-name="drupal7_drush" (same installation process like installation in mysql just put pgsql at the place of mysql.)
+  
 
 
